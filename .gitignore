@@ -1,0 +1,11 @@
+# SpecStory explanation file
+.specstory/*
+
+settings.toml
+# SpecStory explanation file
+.specstory/.what-is-this.md
+adafruit-circuitpython-bundle-9.x-mpy-20250523/*
+adafruit-circuitpython-bundle-9.x-mpy-20250523.zip
+circuitpython_bundle.zip
+/experimental/*
+lib/

@@ -1,0 +1,39 @@
+# Wi-Fi Configuration
+CIRCUITPY_WIFI_SSID = "Your_WiFi_SSID"
+CIRCUITPY_WIFI_PASSWORD = "Your_WiFi_Password"
+
+# --- Primary Person Configuration ---
+# This is the main person whose age will be displayed.
+# Corresponds to `DISPLAY_NAME`, `BIRTH_DATE`, `BIRTH_TIME` in the code.
+DISPLAY_NAME = "Person1_Name"
+BIRTH_DATE = "YYYY-MM-DD"  # Example: 1999-01-01
+BIRTH_TIME = "HH:MM:SS"    # Example: 12:00:00 or HH:MM (e.g., 09:30)
+
+# --- Family Member Configurations ---
+# You can configure up to 4 additional family members.
+# The code will load them in order (FAMILY_MEMBER_1_..., FAMILY_MEMBER_2_..., etc.)
+# Leave the settings for unused members blank or comment them out.
+
+# Family Member 1
+FAMILY_MEMBER_1_NAME = "Person2_Name"
+FAMILY_MEMBER_1_BIRTH_DATE = "YYYY-MM-DD"
+FAMILY_MEMBER_1_BIRTH_TIME = "HH:MM:SS" # or HH:MM
+
+# Family Member 2
+FAMILY_MEMBER_2_NAME = "" # "Person3_Name"
+FAMILY_MEMBER_2_BIRTH_DATE = "" # "YYYY-MM-DD"
+FAMILY_MEMBER_2_BIRTH_TIME = "" # "HH:MM:SS" or HH:MM
+
+# Family Member 3
+FAMILY_MEMBER_3_NAME = "" # "Person4_Name"
+FAMILY_MEMBER_3_BIRTH_DATE = "" # "YYYY-MM-DD"
+FAMILY_MEMBER_3_BIRTH_TIME = "" # "HH:MM:SS" or HH:MM
+
+# Family Member 4
+FAMILY_MEMBER_4_NAME = "" # "Person5_Name"
+FAMILY_MEMBER_4_BIRTH_DATE = "" # "YYYY-MM-DD"
+FAMILY_MEMBER_4_BIRTH_TIME = "" # "HH:MM:SS" or HH:MM
+
+# --- General Settings ---
+# How often the display should refresh, in minutes.
+UPDATE_INTERVAL_MINUTES = "5" # Default is 5 minutes
